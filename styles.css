@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Consolas;
+}
+
+body{
+    background: black;
+}
+
+.hidden{
+    display: none;
+}
+
+#menu{
+    width: 250px;
+    margin: auto;
+    display: grid;
+    padding: 10px;
+    gap: 5px 0px;
+    margin-top: 150px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, blue, magenta);
+}
+
+#menu .numberInputs{
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+#menu p{
+    justify-self: center;
+    color: white;
+}
+
+#menu .colorInput{
+    justify-self: center;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.defaultButtons{
+    height: 25px;
+    border-radius: 5px;
+    border-color: cyan;
+    background: gray;
+    color: white;
+}
+
+#score{
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    color: cyan;
+    background: black;
+    border-radius: 5px;
+    display: none;
+}
+
+canvas{
+    background: white;
+    border: 10px solid teal;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 125px;
+    display: none;
+}

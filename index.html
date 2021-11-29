@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Infinite Snake Game</title>
+</head>
+<body>
+    <main id="menu">
+        <input type="button" id="bDefaultSettings" class="defaultButtons hidden" value="Apply Default Settings">
+        <input type="number" id="iRenderTime" class="numberInputs hidden" placeholder="Render Time (ms)">
+        <input type="number" id="iElementsSize" class="numberInputs hidden" placeholder="Elements Size (px)">
+        <input type="number" id="iCanvasWidth" class="numberInputs hidden" placeholder="Canvas width">
+        <input type="number" id="iCanvasHeight" class="numberInputs hidden" placeholder="Canvas height">
+        <p>Predator Color</p>
+        <input type="color" id="iPredatorColor" class="colorInput">
+        <p>Food Color</p>
+        <input type="color" id="iFoodColor" class="colorInput">
+        <input type="button" id="bStart" value="START !" class="defaultButtons">
+    </main>
+    <canvas width="500" height="500"></canvas>
+    <p id="score">1</p>
+    <script src="codes.js"></script>
+</body>
+</html>
